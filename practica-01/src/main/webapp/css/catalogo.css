@@ -1,0 +1,25 @@
+@charset "UTF-8";
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 480px;
+  }
+  
+ 
+  
+  div.gallery img {
+    width: 100%;
+    height: 100%;
+  }
+  .padre{
+  display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+img{
+	border-radius: 25px;
+}
